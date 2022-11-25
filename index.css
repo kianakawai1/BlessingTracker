@@ -1,0 +1,122 @@
+html, body
+{
+  height: 100%;
+  margin: 0;
+}
+
+body
+{
+background-color: rgb(250, 242, 243);
+}
+
+.header
+{
+	color: rgb(218, 140, 153);
+	font-family: 'Yeon Sung';
+	font-size: 40;
+	letter-spacing: 5px;
+	text-align: center;
+}
+
+.login_div
+{
+	background: rgba(255,255,255,0.8);
+	float: none;
+	border-radius: 15px;
+}
+
+.logo
+{
+	width: 50px;
+	margin-top: 30px;
+	border-radius: 40px;
+	size: 10%;
+}
+
+#login_button
+{
+	font-size: 20px;
+	background-color: rgb(253, 224, 229);
+	border-color: pink;
+	border-radius:15px;
+	font-family: 'Yeon Sung';
+	font-size:15px;
+	width: 80%;
+}
+
+
+#logout
+{
+	font-size: 20px;
+	float: right;
+	background-color: rgb(253, 224, 229);
+	border-color: pink;
+	border-radius:15px;
+	font-size:15px;
+	
+}
+
+
+#output
+{
+	padding: 10px;
+	width:80%;
+	background:rgba(255,255,255,0.8);
+	border-radius: 15px;
+}
+
+.input_div_room_page
+{
+	width: 80%;
+}
+
+.input_div label
+{
+	color: white;font-size: 20px;
+}
+
+
+.sendMessage_div
+{
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
+	background: rgba(255,255,255,0.8);
+	background-color: rgb(236, 242, 255);
+	font-family: 'Yeon Sung';
+}
+.sendMessage_div label
+{
+	color: black;
+	font-family: 'Yeon Sung';
+	font-size:20px;
+}
+.sendMessage_div #msg
+{
+	width: 80%;
+	border-radius:15px;
+	height: 50px;
+}
+.sendMessage_div button
+{
+	font-size: 20px;
+	background-color: rgb(253, 224, 229);
+	border-color: pink;
+	border-radius:15px;
+	font-family: 'Yeon Sung';
+	font-size:15px;
+	width: 10%; 
+}
+
+#divlogin{
+	background-color: rgb(236, 242, 255);
+}
+
+#username{
+	font-family: 'Yeon Sung';
+	border-radius: 15px;
+}
+#title{
+	letter-spacing:1px;
+	font-size:35px;
+}
